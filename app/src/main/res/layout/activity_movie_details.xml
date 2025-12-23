@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewCover"
+        android:layout_width="414dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sacover" />
+
+    <ImageView
+        android:id="@+id/imageViewMPoster"
+        android:layout_width="153dp"
+        android:layout_height="158dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336"
+        app:srcCompat="@drawable/sa" />
+
+    <TextView
+        android:id="@+id/textViewMName"
+        android:layout_width="138dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/viga"
+        android:text="Sihinayaki Adare (2024)"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
+
+    <TextView
+        android:id="@+id/textViewMRunTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/viga"
+        android:text="2h 30m"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCover"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <Button
+        android:id="@+id/buttonTrailer"
+        android:layout_width="114dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#D9D9D9"
+        android:fontFamily="@font/viga"
+        android:text="Trailer"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCover"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/textViewIntro"
+        android:layout_width="357dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/timmana"
+        android:text="The complicated love story between a man and a woman, whose pasts make it harder for them to love one another."
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCover" />
+
+    <Button
+        android:id="@+id/buttonAvailableTheaters"
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#B9D79B"
+        android:fontFamily="@font/viga"
+        android:text="Available Theaters"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCover"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/textViewCastnCrew"
+        android:layout_width="367dp"
+        android:layout_height="238dp"
+        android:fontFamily="@font/viga"
+        android:text="Cast:- &#10;Hemal Ranasinghe | Pooja Umashankar | Sheshadrie Priyasad | Uddika Premarathna | Lucky Dias | Mahendra Perera | Jayantha Atapattu &#10; &#10; Crew:-&#10; Produced by: R. Sadesh Kumar | Srimathi Sadesh Kumar &#10; Directed by: S. Sarov&#10; Story &amp; Script: R. Sadesh Kumar&#10; Co-Directed by: Donald Jayantha&#10; Director of Photography: Vignesh Vasu&#10; Audiography: R. Krishnamoorthy - DFTech&#10; Choreography: Dinesh Kumar&#10; Art Director: Manjula Ayagama&#10; Production Manager: Ashoka Ariyarathne"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <Button
+        android:id="@+id/buttonReviews"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:backgroundTint="#D9D9D9"
+        android:fontFamily="@font/viga"
+        android:text="Reviews"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCover"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <ImageView
+        android:id="@+id/imageViewfilmreel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914"
+        app:srcCompat="@drawable/filmreel" />
+
+    <TextView
+        android:id="@+id/textViewLikes"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:text="105K &#10; Totally liked"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewfilmreel"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <ImageView
+        android:id="@+id/imageViewhome"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966"
+        app:srcCompat="@drawable/home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

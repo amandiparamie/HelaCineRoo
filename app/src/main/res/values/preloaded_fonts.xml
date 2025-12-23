@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/cinzel</item>
+        <item>@font/life_savers</item>
+        <item>@font/macondo_swash_caps</item>
+        <item>@font/supermercado_one</item>
+        <item>@font/timmana</item>
+        <item>@font/trispace_semibold</item>
+        <item>@font/varta_light</item>
+        <item>@font/vidaloka</item>
+        <item>@font/viga</item>
+        <item>@font/volkhov</item>
+        <item>@font/voltaire</item>
+    </array>
+</resources>

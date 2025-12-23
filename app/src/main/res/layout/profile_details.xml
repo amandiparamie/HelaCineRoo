@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE0E0"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/viga"
+        android:text="My Profile"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/profileInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProfile"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editTextNewUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Email"
+            android:inputType="text"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/buttonUpdateEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#6EA5D5"
+            android:text="Done"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewOldEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#972424"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewNewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#972424"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profileButtonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileInfoLayout"
+        android:layout_marginTop="300dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonDeleteAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#1B5B93"
+            android:text="Delete Account"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1B5B93"
+            android:text="Log Out"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

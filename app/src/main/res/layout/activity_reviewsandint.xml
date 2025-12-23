@@ -1,0 +1,266 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/voltaire"
+        android:text="Reviews &amp; Interactions"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/imageViewKM1"
+                android:layout_width="137dp"
+                android:layout_height="138dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/km" />
+
+            <EditText
+                android:id="@+id/editTextReview1"
+                android:layout_width="261dp"
+                android:layout_height="129dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/imageViewKM1"
+                android:background="@color/black"
+                android:ems="15"
+                android:fontFamily="@font/volkhov"
+                android:paddingStart="20dp"
+                android:inputType="text"
+                android:text="Add your Review"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/voltaire"
+            android:text="Kathuru Mithuru (2023) "
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <EditText
+                android:id="@+id/editTextTextComment1"
+                android:layout_width="0dp"
+                android:layout_height="30sp"
+                android:layout_marginStart="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:ems="15"
+                android:fontFamily="@font/volkhov"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:text="Write a comment........"
+                android:textColor="#3E2A2A"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLike1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/vote" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextComment1"
+        android:orientation="vertical"
+        tools:ignore="NotSibling">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp">
+
+            <ImageView
+                android:id="@+id/imageViewSA"
+                android:layout_width="137dp"
+                android:layout_height="138dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/sa" />
+
+            <EditText
+                android:id="@+id/editTextReview2"
+                android:layout_width="261dp"
+                android:layout_height="129dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/imageViewSA"
+                android:background="@color/black"
+                android:ems="15"
+                android:fontFamily="@font/volkhov"
+                android:paddingStart="20dp"
+                android:inputType="text"
+                android:text="Add your Review"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewM2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/voltaire"
+            android:text="Sihinayaki Adare (2024) "
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <EditText
+                android:id="@+id/editTextTextComment2"
+                android:layout_width="0dp"
+                android:layout_height="30sp"
+                android:layout_marginStart="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:ems="15"
+                android:fontFamily="@font/volkhov"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:text="Write a comment........"
+                android:textColor="#3E2A2A"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLike2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/vote" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp">
+
+            <ImageView
+                android:id="@+id/imageViewLS"
+                android:layout_width="137dp"
+                android:layout_height="138dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ls" />
+
+            <EditText
+                android:id="@+id/editTextReview3"
+                android:layout_width="261dp"
+                android:layout_height="129dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/imageViewLS"
+                android:background="@color/black"
+                android:ems="15"
+                android:fontFamily="@font/volkhov"
+                android:paddingStart="20dp"
+                android:inputType="text"
+                android:text="Add your Review"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewM3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/voltaire"
+            android:text="1970 Love Story (2024) "
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <EditText
+                android:id="@+id/editTextTextComment3"
+                android:layout_width="0dp"
+                android:layout_height="30sp"
+                android:layout_marginStart="140dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:ems="15"
+                android:fontFamily="@font/volkhov"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:text="Write a comment........"
+                android:textColor="#3E2A2A"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLike3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/vote" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

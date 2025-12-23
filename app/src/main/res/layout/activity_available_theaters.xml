@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/vidaloka"
+        android:text="Available Theaters"
+        android:textColor="#B9D79B"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/imageViewCover"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/sacover" />
+
+    <TextView
+        android:id="@+id/textViewLiveLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewCover"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="See your live location"
+        android:fontFamily="@font/trispace_semibold"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/home"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="820dp"/>
+
+    <LinearLayout
+        android:layout_width="191dp"
+        android:layout_height="280dp"
+        android:layout_below="@id/textViewLiveLocation"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonSL"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#C0E2E2"
+            android:fontFamily="@font/trispace_semibold"
+            android:text="Sri Lanka"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonAus"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#C0E2E2"
+            android:fontFamily="@font/trispace_semibold"
+            android:text="Australia"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonNZ"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#C0E2E2"
+            android:fontFamily="@font/trispace_semibold"
+            android:text="New Zealand"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonCan"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C0E2E2"
+            android:fontFamily="@font/trispace_semibold"
+            android:textSize="18sp"
+            android:text="Canada"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
